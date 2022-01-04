@@ -16,14 +16,14 @@ public class Menu {
         ChamCong cc = new ChamCong();
         int select = 0;
         do {
-            System.out.println("||================== Menu chính ===================||");
-            System.out.println("||1. Chọn các thao tác nhân viên coder             ||");
-            System.out.println("||2. Chọn các thao tác nhân viên tester            ||");
-            System.out.println("||3. Chọn các thao tác nhân viên seller            ||");
-            System.out.println("||4. Chọn các thao tác nhân viên nghỉ phép         ||");
-            System.out.println("||5. Chấm công nhân viên                           ||");
-            System.out.println("||6. Thống kê lương của các nhân viên              ||");
-            System.out.println("||0. Thoát chương trình                            ||");
+            System.out.println("||================== Menu chinh ===================||");
+            System.out.println("||1. Chon cac thao tac nhan vien coder             ||");
+            System.out.println("||2. Chon cac thao tac nhan vien tester            ||");
+            System.out.println("||3. Chon cac thao tac nhan vien selle             ||");
+            System.out.println("||4. Chon cac thao tac nhan vien nghi phep         ||");
+            System.out.println("||5. Cham cong nhan vien                           ||");
+            System.out.println("||6. Thong ke luong cac loai nhan vien             ||");
+            System.out.println("||0. Thoat chuong trinh                            ||");
             System.out.println("||=================================================||");
             System.out.print("Nhap lua chon: ");
             select = sc.nextInt();
