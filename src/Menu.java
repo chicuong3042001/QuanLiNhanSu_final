@@ -19,7 +19,7 @@ public class Menu {
             System.out.println("||================== Menu chinh ===================||");
             System.out.println("||1. Chon cac thao tac nhan vien coder             ||");
             System.out.println("||2. Chon cac thao tac nhan vien tester            ||");
-            System.out.println("||3. Chon cac thao tac nhan vien selle             ||");
+            System.out.println("||3. Chon cac thao tac nhan vien seller            ||");
             System.out.println("||4. Chon cac thao tac nhan vien nghi phep         ||");
             System.out.println("||5. Cham cong nhan vien                           ||");
             System.out.println("||6. Thong ke luong cac loai nhan vien             ||");

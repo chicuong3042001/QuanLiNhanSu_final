@@ -71,9 +71,10 @@ public class DanhSachTester implements ThaoTac {
 
         System.out.print("Nhap ID tester can xoa : ");
         String ID = sc.nextLine();
+        String toLowerCase = ID.toLowerCase();
         boolean flag = false;
         for (int i = 0; i < size; i++) {
-            if (ID.equals(tester[i].getID())) {
+            if (toLowerCase.equals(tester[i].getID().toLowerCase())) {
                 for (int j = i; j < size; j++) {
                     tester[j] = tester[j + 1];
                     flag = true;
@@ -106,11 +107,12 @@ public class DanhSachTester implements ThaoTac {
                 sc = new Scanner(System.in);
                 System.out.print("Nhap ID nhan vien can sua: ");
                 String ID = sc.nextLine();
+                String toLowerCase = ID.toLowerCase();
                 System.out.print("Nhap ho va ten nhan vien moi : ");
                 String newFullName = sc.nextLine();
                 boolean flag = false;
                 for (int i = 0; i < size; i++) {
-                    if (ID.equals(tester[i].getID())) {
+                    if (toLowerCase.equals(tester[i].getID().toLowerCase())) {
                         tester[i].setFullName(newFullName);
                         System.out.println("Da sua thanh cong!");
                         flag = true;
@@ -127,11 +129,12 @@ public class DanhSachTester implements ThaoTac {
                 sc = new Scanner(System.in);
                 System.out.print("Nhap ID nhan vien can sua: ");
                 String ID = sc.nextLine();
+                String toLowerCase = ID.toLowerCase();
                 System.out.print("Nhap he so luong moi cua nhan vien : ");
                 double newHeSoLuong = sc.nextDouble();
                 boolean flag = false;
                 for (int i = 0; i < size; i++) {
-                    if (ID.equals(tester[i].getID())) {
+                    if (toLowerCase.equals(tester[i].getID().toLowerCase())) {
                         tester[i].setHeSoLuong(newHeSoLuong);
                         System.out.println("Da sua thanh cong!");
                         flag = true;
@@ -147,11 +150,12 @@ public class DanhSachTester implements ThaoTac {
                 sc = new Scanner(System.in);
                 System.out.print("Nhap ID nhan vien can sua: ");
                 String ID = sc.nextLine();
+                String toLowerCase = ID.toLowerCase();
                 System.out.print("Nhap chuc vu moi cua nhan vien : ");
                 String newChucVu = sc.nextLine();
                 boolean flag = false;
                 for (int i = 0; i < size; i++) {
-                    if (ID.equals(tester[i].getID())) {
+                    if (toLowerCase.equals(tester[i].getID().toLowerCase())) {
                         tester[i].setChucVu(newChucVu);
                         System.out.println("Da sua thanh cong!");
                         flag = true;
@@ -188,9 +192,10 @@ public class DanhSachTester implements ThaoTac {
                 sc = new Scanner(System.in);
                 System.out.print("Nhap ID nhan vien can tim: ");
                 String ID = sc.nextLine();
+                String toLowerCase = ID.toLowerCase();
                 boolean flag = false;
                 for (int i = 0; i < size; i++) {
-                    if (ID.equals(tester[i].getID())) {
+                    if (toLowerCase.equals(tester[i].getID().toLowerCase())) {
                         tester[i].Xuat();
                         flag = true;
                     }
@@ -340,9 +345,10 @@ public class DanhSachTester implements ThaoTac {
     sc = new Scanner(System.in);
         System.out.print("Nhap ID tester can cham cong: ");
         String ID = sc.nextLine();
+        String toLowerCase = ID.toLowerCase();
         boolean flag = false;
         for (int i = 0; i < size; i++) {
-            if (ID.equals(tester[i].getID())) {
+            if (toLowerCase.equals(tester[i].getID().toLowerCase())) {
                 tester[i].ChamCong();
                 tester[i].ghiFileChamCong();
                 flag = true;
@@ -360,9 +366,10 @@ public class DanhSachTester implements ThaoTac {
         sc = new Scanner(System.in);
         System.out.print("Nhap ID tester can nghi phep: ");
         String ID = sc.nextLine();
+        String toLowerCase = ID.toLowerCase();
         boolean flag = false;
         for (int i = 0; i < size; i++) {
-            if (ID.equals(tester[i].getID())) {
+            if (toLowerCase.equals(tester[i].getID().toLowerCase())) {
                 tester[i].NhapThoiGian();
                 tester[i].ghiFileNghiPhep();
                 flag = true;
